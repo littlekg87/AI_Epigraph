@@ -1,6 +1,62 @@
-# AI_Epigraph
+<div align="center">
 
-**[발표자료 보기 · Open presentation](https://littlekg87.github.io/AI_Epigraph/)**
+<a id="top"></a>
+
+# AI_Epigraph
+### AI를 활용한 비문 결락자 추론 연구
+### AI-Assisted Inference of Missing Characters in Historical Inscriptions
+
+## [발표자료 보기 · Open Presentation](https://littlekg87.github.io/AI_Epigraph/)
+
+제240회 신라사학회 정기발표회 · 인터랙티브 발표자료 31장  
+The 240th Regular Research Meeting of the Silla Historical Society · 31 interactive slides
+
+## [English](#english) · [한국어](#한국어)
+
+</div>
+
+---
+
+<a id="english"></a>
+
+## English
+
+## The 240th Regular Research Meeting of the Silla Historical Society
+
+**A Digital History Approach to Inferring Missing Characters in Buddhist Monk Inscriptions from Late Silla and Early Goryeo**  
+Focusing on inscriptions composed by Choe Chiwon, Choe Eonwi, and Kim Jeongeon
+
+- **임평섭 (Lim Pyeong-seop)** — Research Professor, HUSS Inclusive Society Project Group, Sogang University
+- **김근하 (Kunha Kim)** — Full-time Researcher, Maritime Humanities Research Institute, Pukyong National University
+
+### Research overview
+
+This study examines whether adapting the Classical Chinese language model SIKU-BERT improves candidate recommendations for missing characters in 18 Buddhist monk inscriptions from late Silla and early Goryeo. The inscriptions were divided into 12 for training, three for development validation, and three for final evaluation. LoRA adapters were trained while the original model weights remained frozen.
+
+Across 5,419 final evaluation examples, Recall@20 increased from 52.06% for the base model to 60.66% for configuration A. Configuration B, which applied LoRA to more transformations, reached 62.06% in a follow-up comparison that reused the same evaluation set. The study distinguishes evaluation using artificially masked known characters from exploratory candidate generation for actual gaps. Its purpose is to support scholarly scrutiny of candidates alongside rubbings, surviving strokes, textual parallels, and historical context.
+
+### Presentation
+
+**[Open the interactive presentation](https://littlekg87.github.io/AI_Epigraph/)**
+
+The presentation contains **31 slides**. Slide 2 provides the URL and QR code. Download `index.html` to view the self-contained presentation offline, including its fonts and images.
+
+- Arrow keys: previous or next slide
+- Upper-right page number or G: open the slide index
+- F: fullscreen / N: speaker notes / P: print
+- Interactive diagrams explain LoRA training, adapter placement, evaluation metrics, and candidate comparisons.
+
+### Sources
+
+References to the paper, data, and research figures appear within the presentation. Noto font OFL notices are embedded in the HTML. Ithaca and Aeneas figures come from Google DeepMind's official research introductions. Rights to third-party materials remain with their respective owners.
+
+<div align="right"><a href="#top">↑ 맨 위로 / Back to top</a></div>
+
+---
+
+<a id="한국어"></a>
+
+## 한국어
 
 ## 제240회 신라사학회 정기발표회
 
@@ -25,42 +81,10 @@
 - F: 전체 화면 / N: 발표자 메모 / P: 인쇄
 - LoRA 학습 과정, 적용 위치, 평가 지표와 후보 비교를 화면에서 조작할 수 있습니다.
 
-<details>
-<summary><strong>English version — click to expand</strong></summary>
-
-## The 240th Regular Research Meeting of the Silla Historical Society
-
-**A Digital History Approach to Inferring Missing Characters in Buddhist Monk Inscriptions from Late Silla and Early Goryeo**  
-Focusing on inscriptions composed by Choe Chiwon, Choe Eonwi, and Kim Jeongeon
-
-- **임평섭 (Lim Pyeong-seop)** — Research Professor, HUSS Inclusive Society Project Group, Sogang University
-- **김근하 (Kim Geun-ha)** — Full-time Researcher, Institute for Marine Humanities, Pukyong National University
-
-### Research overview
-
-This study examines whether adapting the Classical Chinese language model SIKU-BERT improves candidate recommendations for missing characters in 18 Buddhist monk inscriptions from late Silla and early Goryeo. The inscriptions were divided into 12 for training, three for development validation, and three for final evaluation. LoRA adapters were trained while the original model weights remained frozen.
-
-Across 5,419 final evaluation examples, Recall@20 increased from 52.06% for the base model to 60.66% for configuration A. Configuration B, which applied LoRA to more transformations, reached 62.06% in a follow-up comparison that reused the same evaluation set. The study distinguishes evaluation using artificially masked known characters from exploratory candidate generation for actual gaps. Its purpose is to support scholarly scrutiny of candidates alongside rubbings, surviving strokes, textual parallels, and historical context.
-
-### Presentation
-
-**[Open the interactive presentation](https://littlekg87.github.io/AI_Epigraph/)**
-
-The presentation contains **31 slides**. Slide 2 provides the URL and QR code. Download `index.html` to view the self-contained presentation offline, including its fonts and images.
-
-- Arrow keys: previous or next slide
-- Upper-right page number or G: open the slide index
-- F: fullscreen / N: speaker notes / P: print
-- Interactive diagrams explain LoRA training, adapter placement, evaluation metrics, and candidate comparisons.
-
-### Sources
-
-References to the paper, data, and research figures appear within the presentation. Noto font OFL notices are embedded in the HTML. Ithaca and Aeneas figures come from Google DeepMind's official research introductions. Rights to third-party materials remain with their respective owners.
-
-</details>
-
 ### 출처
 
 발표자료 안에 논문·데이터·연구 도판의 출처를 표시했습니다. Noto 폰트의 OFL 고지는 HTML에 포함되어 있습니다. 이타카·아이네아스 도판은 Google DeepMind의 공식 연구 소개 자료를 사용했습니다. 외부 자료의 권리는 각 원저작자에게 있습니다.
 
 GitHub Pages는 `main` 브랜치의 루트에서 제공됩니다.
+
+<div align="right"><a href="#top">↑ 맨 위로 / Back to top</a></div>
